@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">calculator</string>
+    <string name="app_name">Menghitung</string>
+    <string name="nama">Nama</string>
+    <string name="angka1">Angka Pertama</string>
+    <string name="textangka1">Masukan Angka Pertama</string>
+    <string name="textangka2">Masukan Angka Kedua</string>
+    <string name="angka2">Masukan Angka Kedua</string>
+    <string name="hitung">Hitung</string>
 </resources>
