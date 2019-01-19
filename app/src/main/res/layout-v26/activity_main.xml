@@ -23,7 +23,8 @@
         android:layout_height="wrap_content"
         android:hint="@string/textangka1"
         app:layout_constraintTop_toBottomOf="@id/text"
-         />
+        android:inputType=""
+        android:autofillHints="" />
     <TextView
         android:id="@+id/text1"
         android:text="@string/textangka2"
@@ -38,27 +39,20 @@
         android:layout_height="wrap_content"
         android:hint="@string/textangka2"
         app:layout_constraintTop_toBottomOf="@id/text1"
-        />
+        android:inputType=""
+        android:autofillHints="" />
 
     <Button
-        android:id="@+id/btnhitung"
+        android:id="@+id/hitung"
         android:layout_width="match_parent"
         android:layout_height="49dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
+        android:onClick="submitForm"
         android:text="@string/hitung"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/edittext2" />
-    <TextView
-        android:id="@+id/tvhasil"
-        android:text="@string/hasil"
-        android:layout_marginTop="8dp"
-        android:textSize="30sp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toBottomOf="@id/btnhitung"
-        />
 
 </android.support.constraint.ConstraintLayout>
